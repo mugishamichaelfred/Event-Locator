@@ -38,9 +38,10 @@ nav ul li a:hover {
 /* Header Section Styling */
 header {
     text-align: center;
-    background-color: #0066cc;
-    color: white;
+    background-image: url("images/background1.avif");
+    color: rgb(163, 157, 157);
     padding: 50px 20px;
+    border-radius: 5px;
 }
 
 header h1 {
@@ -121,12 +122,13 @@ header p {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-image: url("images/background.avif");
+    color: rgb(65, 54, 54);
+    border-radius: 5px;
 }
 
 footer a {
-    color: #ffcc00;
+    color: #3a3317;
     text-decoration: none;
 }
 
