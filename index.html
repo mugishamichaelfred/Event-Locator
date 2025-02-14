@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Event Locator - Home</title>
     <link rel="stylesheet" href="style.css">
@@ -13,9 +12,9 @@
 <!--    nav-->
     <nav>
         <!--    logo-->
-        <img src="https://placehold.co/150x60" alt="">
+        <img src="images/logo.jpg" alt="">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -45,54 +44,67 @@
             <li><a href="#">Literature</a></li>
         </ul>
     </section>
+
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2 id="modalEventTitle"></h2>
+            <img id="modalEventImage" src="" alt="">
+            <p id="modalEventDescription"></p>
+            <p id="modalEventPrice"></p>
+            <p id="modalEventDateTime"></p>
+        </div>
+    </div>
+    
     <section class="main">
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event1.jpg" alt="" srcset="">
+            <h3>Concert</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event2.jpg" alt="" srcset="">
+            <h3>Rock Music</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event3.jpg" alt="" srcset="">
+            <h3>Club Dance</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event4.jpg" alt="" srcset="">
+            <h3>anniversaire</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
     </section>
     <section class="main">
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event5.jpg" alt="" srcset="">
+            <h3>Club Dance</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event6.jpg" alt="" srcset="">
+            <h3>Taylor Swift: The Eras Tour</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event7.jpg" alt="" srcset="">
+            <h3>The 1989: World Tour</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
         <div class="event-card">
-            <img src="https://placehold.co/200x200" alt="" srcset="">
-            <h3>Event Name</h3>
+            <img src="images/music/event8.jpg" alt="" srcset="">
+            <h3>Taylor Swift: The Eras Party</h3>
             <p>Price: 10000 RwF <span>28th Feb 2025 - </span> <time datetime="01-01-2025"> 21:00</time></p>
         </div>
     </section>
 </main>
 <footer>
     <p>&copy; 2025 Event Locator</p>
-    <p>Developed by <a href="#">Afretec web dev 2025</a></p>
+    <p>Developed by <a href="https://www.linkedin.com/in/mugishamichaelfred/">MUGISHA Michael Fred</a></p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
