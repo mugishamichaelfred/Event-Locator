@@ -24,10 +24,9 @@ ul{
 header {
     display: flex;
     flex-direction: column;
-    /*background: url("../images/events_bg.jpg");*/
-    /*background: rgba(58, 90, 64, 0.8);*/
     background: linear-gradient(#DAD7CD, #070b0b);
     background-size: cover;
+    border-radius: 10px;
 
     color: #fff;
     padding: 1em 0;
@@ -117,47 +116,6 @@ main #cat-filtering{
 }
 
 
-/* Modal styles */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4); /* Black with transparency */
-    padding-top: 60px;
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Adjust the width as needed */
-    position: relative;
-}
-
-.close {
-    color: #aaa;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
 .main{
     display: flex;
     justify-content: space-between;
@@ -208,7 +166,14 @@ main #cat-filtering{
 footer{
     display: flex;
     justify-content: center;
+    background-color: #070b0b;
+    color: #fff;
     text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    border-radius: 8px;
+    font-size: 1em;
+
 }
 footer p{
     padding: 0 1em;
