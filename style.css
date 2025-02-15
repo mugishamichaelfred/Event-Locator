@@ -24,10 +24,9 @@ ul{
 header {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#DAD7CD, #070b0b);
+    background-image: url("images/events_bg.jpg");
     background-size: cover;
-    border-radius: 10px;
-
+    border-radius: 0 0 10px 10px;
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -52,9 +51,8 @@ header ul li{
 
 header ul li a{
     /*color: #fff;*/
-    text-decoration: none;
     font-weight: bold;
-    color: #344E41;
+    color: rgb(120, 184, 173);
 }
 
 header img {
@@ -84,9 +82,14 @@ header ul li a:hover,
 }
 
 #searchBar input[type=submit]{
-    background-color: goldenrod;
+    background-color: rgb(120, 184, 173);
     font-weight: bolder;
-    padding: 1em;
+    border-radius: 8px;
+    padding: 7px;
+    margin-top: 10px;
+}
+#searchBar input[type=submit]:hover {
+    color: yellow;
 }
 
 
@@ -103,7 +106,6 @@ main #cat-filtering{
 #cat-filtering ul{
     display: flex;
     justify-content: center;
-    list-style: none;
 }
 
 #cat-filtering ul li{
@@ -120,16 +122,6 @@ main #cat-filtering{
     display: flex;
     justify-content: space-between;
     padding: 2em;
-}
-
-@media (max-width: 768px) {
-    .main {
-        flex-direction: column;
-    }
-
-    .event-card {
-        margin-bottom: 20px;
-    }
 }
 
 .event-card {
@@ -171,7 +163,7 @@ footer{
     text-align: center;
     margin-top: 50px;
     padding: 20px 0;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     font-size: 1em;
 
 }
