@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event Locator - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<!--    nav-->
+    <nav>
+        <!--    logo-->
+        <img src="images/logo.jpg" alt="">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+<!--    search bar-->
+    <div id="searchBar">
+        <form action="" method="get">
+            <input type="text" name="search" id="search" placeholder="search events"><br/>
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</header>
+<main>
+    <section id="cat-filtering">
+<!--        <h2>Filter by Category</h2>-->
+        <ul>
+            <li><a href="Categories/music.html">Music</a></li>
+            <li><a href="Categories/sports.html">Sports</a></li>
+            <li><a href="Categories/art.html">Art</a></li>
+            <li><a href="Categories/theatre.html">Theatre</a></li>
+            <li><a href="Categories/dance.html">Dance</a></li>
+            <li><a href="Categories/comedy.html">Comedy</a></li>
+            <li><a href="Categories/fashion.html">Fashion</a></li>
+            <li><a href="Categories/food.html">Food</a></li>
+            <li><a href="Categories/film.html">Film</a></li>
+            <li><a href="Categories/literature.html">Literature</a></li>
+        </ul>
+    </section>
+    
+    <section class="contact-info">
+        <h2>We'd Love to Hear from You!</h2>
+        <p>If you have any questions, feedback, or suggestions, please reach out to us using the form below or via the contact details provided. We are here to assist you with any inquiries about the Interactive Local Event Finder.</p>
+    </section>
+
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="submit_contact_form.html" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <section class="other-ways">
+        <h2>Other Ways to Reach Us:</h2>
+        <p>Email us at: <a href="mailto:asmodeusdaemon29@gmail.com">Event_Locator</a></p>
+        <p>Follow us on social media:</p>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+    
+</main>
+<footer>
+    <p>&copy; 2025 Event Locator</p>
+    <p>Developed by <a href="https://www.linkedin.com/in/mugishamichaelfred/">MUGISHA Michael Fred</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

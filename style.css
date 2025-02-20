@@ -154,6 +154,167 @@ main #cat-filtering{
 }
 
 
+/* All about the body contact and about the pages */
+/* About Page Section */
+.intro {
+    margin-bottom: 2em;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #344E41;
+}
+
+.intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.features {
+    margin-top: 2em;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #344E41;
+}
+
+.features ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.features ul li {
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+    color: #555;
+}
+
+.features ul li strong {
+    color: #344E41;
+}
+
+/* Contact Us Page Section */
+.contact-info {
+    margin-bottom: 2em;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #344E41;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Contact Form */
+.contact-form {
+    margin-bottom: 3em;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #344E41;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 1em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #344E41;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 0.8em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: goldenrod;
+}
+
+/* Social Media Links Section */
+.other-ways ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.other-ways ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #344E41;
+}
+
+.other-ways ul li a:hover {
+    color: goldenrod;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro h2,
+    .features h2,
+    .contact-info h2,
+    .contact-form h2 {
+        font-size: 1.8em;
+    }
+
+    .features ul li {
+        font-size: 1em;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1em;
+    }
+
+    .contact-form input[type="submit"] {
+        font-size: 1em;
+    }
+
+    .other-ways ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .other-ways ul li a {
+        font-size: 1.1em;
+    }
+}
+
 
 footer{
     display: flex;
